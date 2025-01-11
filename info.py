@@ -36,7 +36,7 @@ QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/f8f166c860092b398b7b4-8
 REFERAL_TIME = int(environ.get('REFERAL_USER_TIME', "2592000")) # set in seconds | already seted 1 month premium
 REFFER_POINT = int(environ.get('USER_POINT', "50")) # Set Referel point Count 
 #premium Users Satuts
-premium = environ.get('PREMIUM_LOGS', '-1002232612097')
+premium = environ.get('PREMIUM_LOGS', ' -1002359135445')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 # lock file, set file limit 
 FILE_LIMITE = int(environ.get('FILE_LIMITE', 10))
@@ -79,9 +79,9 @@ THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "600"))
 VERIFY_URL3 = environ.get('VERIFY_URL3', 'gplinks.com')
 VERIFY_API3 = (environ.get('VERIFY_API3', 'dafb9e22d96417b1f1fa2403cf9c0e150884d4fc'))
  
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/UGMoviez/71')
-TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/UGMoviez/71')
-TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/UGMoviez/71')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/backup_movie_file')
+TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/backup_movie_file')
+TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/backup_movie_file')
 
 # auto files delete
 AUTO_FILE_DELETE = is_enabled((environ.get('AUTO_FILE_DELETE', "True")), False)
@@ -90,13 +90,13 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/UGMoviez')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Gmoviesxwebseries')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/backup_movie_file')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/backup_movie_file')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002232612097))
-GROUP_VERIFY_LOGS = int(environ.get('GROUP_VERIFY_LOGS', -1002232612097)) # Group verify stats 
-REQ_CHANNEL = int(environ.get('REQ_CHANNEL', -1002232612097)) # movies request channel, else log channel
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '@umeshgurjar9763')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL',  -1002359135445))
+GROUP_VERIFY_LOGS = int(environ.get('GROUP_VERIFY_LOGS',  -1002359135445)) # Group verify stats 
+REQ_CHANNEL = int(environ.get('REQ_CHANNEL',  -1002359135445)) # movies request channel, else log channel
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/backup_movie_file')
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
@@ -114,7 +114,7 @@ MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 REACTION = ["🔥", "❤️", "😍", "⚡", "👍", "❤", "🔥", "🥰", "👏", "😁", "🎉", "🤩", "🙏", "👌", "🕊", "❤‍🔥", "⚡", "😇", "🤗", "😘", "😋", "😎"]
 
 # Streaming
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", "-1001637710147")) 
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", " -1002359135445")) 
 PORT = int(environ.get('PORT', 8080))
 NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
