@@ -66,18 +66,18 @@ STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
 
 
 #verify site api and url
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'false')), False)
-VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-VERIFY_URL = environ.get('VERIFY_URL', 'shortxlinks.com')
-VERIFY_API = (environ.get('VERIFY_API', '0ea896fb66141fc165fd2caa43e1e322c3263db6'))
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
+VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af6gplinks.com8eaa62c3ca4.jpg")
+VERIFY_URL = environ.get('VERIFY_URL', 'arlinks.in')
+VERIFY_API = (environ.get('VERIFY_API', '8fe1c533a23cd5ec7cb959fb853bbc4fc4bef68b'))
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "600"))
-VERIFY_URL2 = environ.get('VERIFY_URL2', 'gplinks.com')
-VERIFY_API2 = (environ.get('VERIFY_API2', 'dafb9e22d96417b1f1fa2403cf9c0e150884d4fc'))
- 
+VERIFY_URL2 = environ.get('VERIFY_URL2', 'arlinks.in')
+VERIFY_API2 = (environ.get('VERIFY_API2', '8fe1c533a23cd5ec7cb959fb853bbc4fc4bef68b'))
+
 THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "600"))
-VERIFY_URL3 = environ.get('VERIFY_URL3', 'gplinks.com')
-VERIFY_API3 = (environ.get('VERIFY_API3', 'dafb9e22d96417b1f1fa2403cf9c0e150884d4fc'))
+VERIFY_URL3 = environ.get('VERIFY_URL3', 'arlinks.in')
+VERIFY_API3 = (environ.get('VERIFY_API3', '8fe1c533a23cd5ec7cb959fb853bbc4fc4bef68b'))
  
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/backup_movie_file')
 TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/backup_movie_file')
