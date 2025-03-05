@@ -17,8 +17,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ""))
-API_HASH = environ.get('API_HASH', "")
+API_ID = int(environ.get('API_ID', "29559156"))
+API_HASH = environ.get('API_HASH', "b9f4d4dddb22e55e4d79d61d6b2567ea")
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 
@@ -54,7 +54,7 @@ AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '0'))
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), True)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Damon00:Jarvis1234@cluster0.bjs5n.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -68,20 +68,20 @@ STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
 #verify site api and url
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af6gplinks.com8eaa62c3ca4.jpg")
-VERIFY_URL = environ.get('VERIFY_URL', 'arlinks.in')
-VERIFY_API = (environ.get('VERIFY_API', '8fe1c533a23cd5ec7cb959fb853bbc4fc4bef68b'))
+VERIFY_URL = environ.get('VERIFY_URL', 'udlinks.com')
+VERIFY_API = (environ.get('VERIFY_API', '348b29dd24ac19c97547a5bd8401a4fe4e1fc784'))
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "7200"))
-VERIFY_URL2 = environ.get('VERIFY_URL2', 'arlinks.in')
-VERIFY_API2 = (environ.get('VERIFY_API2', '8fe1c533a23cd5ec7cb959fb853bbc4fc4bef68b'))
+VERIFY_URL2 = environ.get('VERIFY_URL2', 'udlinks.com')
+VERIFY_API2 = (environ.get('VERIFY_API2', '348b29dd24ac19c97547a5bd8401a4fe4e1fc784'))
 
 THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "7200"))
-VERIFY_URL3 = environ.get('VERIFY_URL3', 'arlinks.in')
-VERIFY_API3 = (environ.get('VERIFY_API3', '8fe1c533a23cd5ec7cb959fb853bbc4fc4bef68b'))
+VERIFY_URL3 = environ.get('VERIFY_URL3', 'udlinks.com')
+VERIFY_API3 = (environ.get('VERIFY_API3', '348b29dd24ac19c97547a5bd8401a4fe4e1fc784'))
  
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/backup_movie_file')
-TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/backup_movie_file')
-TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/backup_movie_file')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_Download_file1/78')
+TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/How_to_Download_file1/78')
+TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/How_to_Download_file1/78')
 
 # auto files delete
 AUTO_FILE_DELETE = is_enabled((environ.get('AUTO_FILE_DELETE', "True")), False)
@@ -96,7 +96,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ A�
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL',  -1002359135445))
 GROUP_VERIFY_LOGS = int(environ.get('GROUP_VERIFY_LOGS',  -1002359135445)) # Group verify stats 
 REQ_CHANNEL = int(environ.get('REQ_CHANNEL',  -1002359135445)) # movies request channel, else log channel
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/backup_movie_file')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Private_Flimy_Hub')
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
